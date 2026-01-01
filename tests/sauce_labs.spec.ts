@@ -4,7 +4,7 @@ import FinishPage from '../pages/sauce_labs/finish.page';
 import { test, expect } from '@playwright/test';
 import testData from '../data/testdata.json';
 
-test.describe('Sauce Labs Login Tests', () => {
+test.describe('Sauce Labs Purchase Product', () => {
   let loginPage: LoginPage;
   let productsPage: ProductsPage;
   test('Valid Login Test', async ({ page }) => {
