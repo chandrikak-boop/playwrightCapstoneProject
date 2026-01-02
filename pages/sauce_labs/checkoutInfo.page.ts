@@ -1,4 +1,4 @@
-import { Locator, Page } from '@playwright/test';
+import { expect, Locator, Page } from '@playwright/test';
 class CheckoutInfoPage {
   firstname:Locator;
   lastname:Locator;
@@ -12,11 +12,17 @@ class CheckoutInfoPage {
 
     }
     async EnterDetails(firstName:string,lastName:string,postalCode:string){
+        await expect(this.firstname).toBeVisible();
         await this.firstname.fill(firstName);
+
+        await expect(this.lastname).toBeEditable();
         await this.lastname.fill(lastName);
+
+        await expect(this.postalcode).toBeEditable();
         await this.postalcode.fill(postalCode);
     }
     async clickContinue(){
+        await expect(this.continueButton).toBeEnabled();
         await this.continueButton.click();
     }
 }

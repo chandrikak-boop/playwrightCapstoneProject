@@ -1,4 +1,4 @@
-import { Locator, Page } from "@playwright/test";
+import { Locator, Page,expect } from "@playwright/test";
 
 class ProductsPage {
 page:Page;
@@ -13,13 +13,16 @@ checkoutButton:Locator;
     this.cart=page.locator('.shopping_cart_link');
     this.checkoutButton=page.getByRole('button',{name:'Checkout'});
     }
-    async addProductToCart(){   
+    async addProductToCart(){ 
+        await expect(this.product).toBeEnabled();  
         await this.product.click();
     }
     async navigateToCart(){
+        await expect(this.cart).toBeEnabled();
         await this.cart.click();
     }
     async clickCheckout(){
+        await expect(this.checkoutButton).toBeEnabled();
         await this.checkoutButton.click();
     }
 }

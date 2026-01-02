@@ -1,8 +1,10 @@
 import LoginPage from '../pages/sauce_labs/login.page';
 import ProductsPage from '../pages/sauce_labs/products.page';
 import FinishPage from '../pages/sauce_labs/finish.page';
+import CheckoutInfoPage from '../pages/sauce_labs/checkoutInfo.page';
 import { test, expect } from '@playwright/test';
 import testData from '../data/testdata.json';
+import {faker} from '@faker-js/faker'
 
 test.describe('Sauce Labs Purchase Product', () => {
   let loginPage: LoginPage;
@@ -19,7 +21,7 @@ test.describe('Sauce Labs Purchase Product', () => {
     await expect(page.locator('.inventory_list')).toBeVisible();
 
     // Add a product to the cart
-    productsPage = new ProductsPage(page,'Sauce Labs Bike Light');
+    productsPage = new ProductsPage(page, `${testData.product}`);
     await productsPage.addProductToCart();  
     await expect(page.locator('.shopping_cart_badge')).toHaveText('1');
 
@@ -34,16 +36,13 @@ test.describe('Sauce Labs Purchase Product', () => {
 
 
 //Enter Checkout Info
-    // You can create a CheckoutInfoPage class similar to LoginPage and ProductsPage for better structure
-    const firstNameInput = page.getByPlaceholder('First Name');
-    const lastNameInput = page.getByPlaceholder('Last Name');
-    const postalCodeInput = page.getByPlaceholder('Zip/Postal Code');
-    const continueButton = page.getByRole('button',{name:'Continue'});
+    const firstName = faker.person.firstName();
+    const lastName = faker.person.lastName();
+    const postalCode = faker.location.zipCode();
+    const checkoutInfoPage = new CheckoutInfoPage(page);
+    await checkoutInfoPage.EnterDetails(firstName,lastName,postalCode);
+    await checkoutInfoPage.clickContinue();
 
-    await firstNameInput.fill(testData.firstName);
-    await lastNameInput.fill(testData.lastName);
-    await postalCodeInput.fill(testData.postalCode);
-    await continueButton.click();
 
     // Verify navigation to the next checkout step
     await expect(page).toHaveURL('https://www.saucedemo.com/checkout-step-two.html');

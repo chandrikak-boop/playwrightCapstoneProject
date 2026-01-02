@@ -12,12 +12,12 @@ test.describe('Sauce Labs Negative Login Tests', () => {
         await loginPage.enterPassword(user.password);
         await loginPage.clickLoginButton();
         await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
-        console.log(user.username + 'User Login Successful');
+        console.log(user.username + ' User Login Successful');
         }
         catch(error){
-            console.error(user.username + 'User Login Failed');
-        }
-        
+            console.error(user.username + ' User Login Failed');
+            await loginPage.displayErrorMessage();
+        }  
     })      
 }
 });

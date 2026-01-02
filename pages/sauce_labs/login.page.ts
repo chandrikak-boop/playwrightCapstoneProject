@@ -1,4 +1,4 @@
-import { Page,Locator } from '@playwright/test';
+import { Page,Locator, expect } from '@playwright/test';
 class LoginPage {
     usernameInput: Locator;
     passwordInput: Locator;
@@ -16,15 +16,21 @@ class LoginPage {
   }
 
   async enterUsername(username: string) {
+    await expect(this.usernameInput).toBeVisible();
     await this.usernameInput.fill(`${username}`);
   }
 
   async enterPassword(password: string) {
+    await expect(this.passwordInput).toBeEditable();
     await this.passwordInput.fill(password);
   }
 
   async clickLoginButton() {
+    await expect(this.loginButton).toBeEnabled();
     await this.loginButton.click();
+  }
+  async displayErrorMessage(){
+    console.error("Error Message: " + await this.page.locator('[data-test="error"]').textContent());
   }
 }
 
