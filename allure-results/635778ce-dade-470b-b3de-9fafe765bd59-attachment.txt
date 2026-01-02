@@ -1,0 +1,46 @@
+{
+  id: 'ff8081819782e69e019b7e223fee320a',
+  name: 'my Apple MacBook Pro 16',
+  createdAt: '2026-01-02T09:55:32.462+00:00',
+  data: {
+    year: 2019,
+    price: 1849.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB'
+  }
+}
+200
+User ID: ff8081819782e69e019b7e223fee320a
+{
+  id: 'ff8081819782e69e019b7e223fee320a',
+  name: 'my Apple MacBook Pro 16',
+  data: {
+    year: 2019,
+    price: 1849.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB'
+  }
+}
+❌   FAILED - THE RESPONSE BODY IS NOT VALID AGAINST THE SCHEMA!
+Number of schema errors:  1
+Schema mismatches in data:
+ {
+  id: 'ff8081819782e69e019b7e223fee320a',
+  name: 'my Apple MacBook Pro 16',
+  data: {
+    year: 2019,
+    price: 1849.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB',
+    color: ' ⚠️ undefined Invalid input: expected string, received undefined'
+  }
+}
+Schema errors:
+ [
+  {
+    expected: 'string',
+    code: 'invalid_type',
+    path: [ 'data', 'color' ],
+    message: 'Invalid input: expected string, received undefined'
+  }
+]

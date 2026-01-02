@@ -1,0 +1,50 @@
+{
+  id: 'ff8081819782e69e019b7e2a1b09324d',
+  name: 'my Apple MacBook Pro 16',
+  createdAt: '2026-01-02T10:04:07.305+00:00',
+  data: {
+    year: 2019,
+    price: 1849.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB'
+  }
+}
+200
+User ID: ff8081819782e69e019b7e2a1b09324d
+{
+  id: 'ff8081819782e69e019b7e2a1b09324d',
+  name: 'my Apple MacBook Pro 16',
+  data: {
+    year: 2019,
+    price: 1849.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB'
+  }
+}
+✔️   PASSED - THE RESPONSE BODY IS VALID AGAINST THE SCHEMA!
+{
+  id: 'ff8081819782e69e019b7e2a1b09324d',
+  name: 'Apple MacBook Pro 16',
+  updatedAt: '2026-01-02T10:04:08.103+00:00',
+  data: {
+    year: 2019,
+    price: 2049.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB',
+    color: 'silver'
+  }
+}
+200
+{
+  id: 'ff8081819782e69e019b7e2a1b09324d',
+  name: 'Apple MacBook Pro 16 (Updated Name)',
+  updatedAt: '2026-01-02T10:04:08.506+00:00',
+  data: {
+    year: 2019,
+    price: 2049.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB',
+    color: 'silver'
+  }
+}
+200
