@@ -35,7 +35,6 @@ class FlightsPage{
     async selectDepartureDate(month:string,day:number){
     let currentMonth=await this.monthPicker.textContent();
     while(currentMonth!==month){
-        console.log(currentMonth);
         await this.nextMonthButton.click();
         currentMonth=await this.monthPicker.textContent();
     }

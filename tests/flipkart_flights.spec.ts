@@ -2,6 +2,7 @@ import {expect,test} from '@playwright/test';
 import HomePage from '../pages/flipkart_flight/home.page';
 import FlightsPage from '../pages/flipkart_flight/enterFlightDetails.page';
 import SelectFlightPage from '../pages/flipkart_flight/selectFlight.page';
+import flightData from '../data/flightData.json';
 test.describe('Flipkart Flight Booking Test',()=>{
     let homePage:HomePage;
     let flightsPage:FlightsPage;
@@ -20,9 +21,9 @@ test.describe('Flipkart Flight Booking Test',()=>{
         console.log(await page.title());
         
         flightsPage=new FlightsPage(page);
-        await flightsPage.enterFromLocation('Bangalore');
-        await flightsPage.enterToLocation('Delhi');
-        await flightsPage.selectDepartureDate('March 2026',15);
+        await flightsPage.enterFromLocation(flightData.from);
+        await flightsPage.enterToLocation(flightData.to);
+        await flightsPage.selectDepartureDate(flightData.month,flightData.day);
         await flightsPage.clickDone();
         await flightsPage.searchFlights();
         //await expect(page).toHaveTitle(/Flights from Bangalore to Delhi/);
