@@ -1,0 +1,486 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - link "Flipkart" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Flipkart" [ref=e11]
+      - link "Explore Plus" [ref=e12] [cursor=pointer]:
+        - /url: /plus
+        - text: Explore Plus
+        - img [ref=e13]
+    - generic [ref=e14]:
+      - img [ref=e15]
+      - text: Travel
+    - link "Login" [ref=e21] [cursor=pointer]:
+      - /url: /account/login?ret=/travel/flights/search%3Ftrips%3DBLR-DXB-15032026%26travellers%3D1-0-0%26class%3De%26tripType%3DONE_WAY%26isIntl%3Dtrue%26source%3DSearch%2520Form
+    - generic [ref=e23] [cursor=pointer]:
+      - generic [ref=e26]: More
+      - img [ref=e27]
+  - generic [ref=e31]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]: Trip Type
+        - button "One Way" [ref=e42] [cursor=pointer]: One Way
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: From
+          - textbox [ref=e50]: Bengaluru, BLR - Kempegowda International Airport, India
+        - img [ref=e52] [cursor=pointer]
+        - generic [ref=e56]:
+          - generic [ref=e57]: To
+          - textbox [ref=e61]: Dubai, DXB - Dubai International Airport, United Arab Emirates
+      - generic [ref=e62]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: Depart
+          - textbox [ref=e67]: 15 Mar, Sun
+        - generic [ref=e69]:
+          - generic [ref=e70]: Return
+          - textbox [ref=e72]: Book round trip for great deals
+      - generic [ref=e73]:
+        - generic [ref=e74]: Travellers & Class
+        - textbox [ref=e76]: 1 Traveller | Economy
+      - button "Search Again" [ref=e79] [cursor=pointer]:
+        - generic [ref=e80]: Search Again
+    - generic [ref=e81]:
+      - generic [ref=e83]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: Filter By
+          - generic [ref=e88] [cursor=pointer]: Reset All
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: Stops
+              - generic [ref=e93] [cursor=pointer]: Clear filters
+            - img [ref=e95] [cursor=pointer]
+          - generic [ref=e97]:
+            - generic [ref=e103] [cursor=pointer]: Non-stop
+            - generic [ref=e109] [cursor=pointer]: 1 stop
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e113]: Departure from Bengaluru
+            - img [ref=e115] [cursor=pointer]
+          - generic [ref=e117]:
+            - generic [ref=e122] [cursor=pointer]:
+              - generic [ref=e123]: Early Morning
+              - generic [ref=e124]: 12am - 6am
+            - generic [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: Morning
+              - generic [ref=e131]: 6am - noon
+            - generic [ref=e136] [cursor=pointer]:
+              - generic [ref=e137]: Afternoon
+              - generic [ref=e138]: noon - 6pm
+            - generic [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]: Night
+              - generic [ref=e145]: 6pm - midnight
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: Price from Bengaluru
+            - img [ref=e150] [cursor=pointer]
+          - generic [ref=e152]:
+            - generic [ref=e161]:
+              - generic [ref=e162]: .
+              - generic [ref=e163]: .
+              - generic [ref=e164]: .
+              - generic [ref=e165]: .
+              - generic [ref=e166]: .
+              - generic [ref=e167]: .
+              - generic [ref=e168]: .
+              - generic [ref=e169]: .
+              - generic [ref=e170]: .
+              - generic [ref=e171]: .
+              - generic [ref=e172]: .
+              - generic [ref=e173]: .
+              - generic [ref=e174]: .
+              - generic [ref=e175]: .
+              - generic [ref=e176]: .
+              - generic [ref=e177]: .
+              - generic: .
+            - generic [ref=e178]:
+              - generic [ref=e179]: ₹10,725
+              - generic [ref=e180]: ₹3,28,598
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]: Trip Duration
+            - img [ref=e185] [cursor=pointer]
+          - generic [ref=e187]:
+            - generic [ref=e196]:
+              - generic [ref=e197]: .
+              - generic [ref=e198]: .
+              - generic [ref=e199]: .
+              - generic [ref=e200]: .
+              - generic [ref=e201]: .
+              - generic [ref=e202]: .
+              - generic [ref=e203]: .
+              - generic [ref=e204]: .
+              - generic [ref=e205]: .
+              - generic [ref=e206]: .
+              - generic [ref=e207]: .
+              - generic [ref=e208]: .
+              - generic [ref=e209]: .
+              - generic [ref=e210]: .
+              - generic [ref=e211]: .
+              - generic [ref=e212]: .
+              - generic [ref=e213]: .
+              - generic [ref=e214]: .
+              - generic [ref=e215]: .
+              - generic [ref=e216]: .
+              - generic [ref=e217]: .
+              - generic [ref=e218]: .
+              - generic [ref=e219]: .
+              - generic [ref=e220]: .
+              - generic [ref=e221]: .
+              - generic [ref=e222]: .
+              - generic [ref=e223]: .
+              - generic [ref=e224]: .
+              - generic [ref=e225]: .
+              - generic: .
+            - generic [ref=e226]:
+              - generic [ref=e227]: 04 h 05 m
+              - generic [ref=e228]: 32 h 20 m
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: Layover Duration
+            - img [ref=e233] [cursor=pointer]
+          - generic [ref=e235]:
+            - generic [ref=e244]:
+              - generic [ref=e245]: .
+              - generic [ref=e246]: .
+              - generic [ref=e247]: .
+              - generic [ref=e248]: .
+              - generic [ref=e249]: .
+              - generic [ref=e250]: .
+              - generic [ref=e251]: .
+              - generic [ref=e252]: .
+              - generic [ref=e253]: .
+              - generic [ref=e254]: .
+              - generic [ref=e255]: .
+              - generic [ref=e256]: .
+              - generic [ref=e257]: .
+              - generic [ref=e258]: .
+              - generic [ref=e259]: .
+              - generic [ref=e260]: .
+              - generic [ref=e261]: .
+              - generic [ref=e262]: .
+              - generic [ref=e263]: .
+              - generic [ref=e264]: .
+              - generic [ref=e265]: .
+              - generic [ref=e266]: .
+              - generic [ref=e267]: .
+              - generic [ref=e268]: .
+              - generic: .
+            - generic [ref=e269]:
+              - generic [ref=e270]: 00 h 40 m
+              - generic [ref=e271]: 24 h 40 m
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e275]: Airlines
+            - img [ref=e277] [cursor=pointer]
+          - generic [ref=e279]:
+            - generic [ref=e288] [cursor=pointer]: Qatar Airways
+            - generic [ref=e297] [cursor=pointer]: Oman Air
+            - generic [ref=e306] [cursor=pointer]: Saudia
+            - generic [ref=e307] [cursor=pointer]: + 18 More
+      - generic [ref=e311]:
+        - generic [ref=e313]:
+          - generic [ref=e314]: Sort by
+          - generic [ref=e315]:
+            - generic [ref=e317] [cursor=pointer]: DEPART
+            - generic [ref=e318] [cursor=pointer]: DURATION
+            - generic [ref=e320] [cursor=pointer]: ARRIVAL
+          - generic [ref=e323] [cursor=pointer]:
+            - generic [ref=e324]: PRICE
+            - img [ref=e325]
+        - generic [ref=e329]:
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - generic [ref=e340]: Air India Express | IX-865
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - generic [ref=e343]: BLR
+                  - generic [ref=e344]: 20:50
+                - generic [ref=e345]:
+                  - generic [ref=e346]: 4h 20m
+                  - generic [ref=e349]: Non stop
+                - generic [ref=e350]:
+                  - generic [ref=e351]: AUH
+                  - generic [ref=e352]: 23:40
+              - generic [ref=e353]:
+                - generic [ref=e354]: ₹10,725
+                - generic [ref=e356]: Get ₹1500 off with SAVER
+              - generic [ref=e357] [cursor=pointer]: Book
+            - generic [ref=e359] [cursor=pointer]:
+              - generic [ref=e360]: Flight Details
+              - img [ref=e361]
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - generic [ref=e373]: IndiGo | 6E-1419
+              - generic [ref=e374]:
+                - generic [ref=e375]:
+                  - generic [ref=e376]: BLR
+                  - generic [ref=e377]: 00:10
+                - generic [ref=e378]:
+                  - generic [ref=e379]: 4h 20m
+                  - generic [ref=e382]: Non stop
+                - generic [ref=e383]:
+                  - generic [ref=e384]: AUH
+                  - generic [ref=e385]: 03:00
+              - generic [ref=e386]:
+                - generic [ref=e387]: ₹11,040
+                - generic [ref=e389]: Get ₹1150 off with SAVER
+              - generic [ref=e390] [cursor=pointer]: Book
+            - generic [ref=e392] [cursor=pointer]:
+              - generic [ref=e393]: Flight Details
+              - img [ref=e394]
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - generic [ref=e406]: IndiGo | 6E-1485
+              - generic [ref=e407]:
+                - generic [ref=e408]:
+                  - generic [ref=e409]: BLR
+                  - generic [ref=e410]: 08:00
+                - generic [ref=e411]:
+                  - generic [ref=e412]: 4h 15m
+                  - generic [ref=e415]: Non stop
+                - generic [ref=e416]:
+                  - generic [ref=e417]: DXB
+                  - generic [ref=e418]: 10:45
+              - generic [ref=e419]:
+                - generic [ref=e420]: ₹12,668
+                - generic [ref=e422]: Get ₹1150 off with SAVER
+              - generic [ref=e423] [cursor=pointer]: Book
+            - generic [ref=e425] [cursor=pointer]:
+              - generic [ref=e426]: Flight Details
+              - img [ref=e427]
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - generic [ref=e439]: Air Arabia | G9-497
+              - generic [ref=e440]:
+                - generic [ref=e441]:
+                  - generic [ref=e442]: BLR
+                  - generic [ref=e443]: 03:35
+                - generic [ref=e444]:
+                  - generic [ref=e445]: 4h 15m
+                  - generic [ref=e448]: Non stop
+                - generic [ref=e449]:
+                  - generic [ref=e450]: SHJ
+                  - generic [ref=e451]: 06:20
+              - generic [ref=e452]:
+                - generic [ref=e453]: ₹14,062
+                - generic [ref=e455]: Get ₹1500 off with SAVER
+              - generic [ref=e456] [cursor=pointer]: Book
+            - generic [ref=e458] [cursor=pointer]:
+              - generic [ref=e459]: Flight Details
+              - img [ref=e460]
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - generic [ref=e472]: Air Arabia | G9-497
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - generic [ref=e475]: BLR
+                  - generic [ref=e476]: 03:35
+                - generic [ref=e477]:
+                  - generic [ref=e478]: 4h 15m
+                  - generic [ref=e481]: Non stop
+                - generic [ref=e482]:
+                  - generic [ref=e483]: SHJ
+                  - generic [ref=e484]: 06:20
+              - generic [ref=e485]:
+                - generic [ref=e486]: ₹15,621
+                - generic [ref=e488]: Get ₹1500 off with SAVER
+              - generic [ref=e489] [cursor=pointer]: Book
+            - generic [ref=e491] [cursor=pointer]:
+              - generic [ref=e492]: Flight Details
+              - img [ref=e493]
+          - generic [ref=e495]:
+            - generic [ref=e497]:
+              - generic [ref=e498]:
+                - generic [ref=e505]: Emirates | EK-565
+                - generic [ref=e506]:
+                  - generic [ref=e507]:
+                    - generic [ref=e508]: BLR
+                    - generic [ref=e509]: 10:25
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: 4h 5m
+                    - generic [ref=e514]: Non stop
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: DXB
+                    - generic [ref=e517]: 13:00
+                - generic [ref=e519]: ₹18,115
+                - generic [ref=e520] [cursor=pointer]: Book
+              - generic [ref=e522] [cursor=pointer]:
+                - generic [ref=e523]: Flight Details
+                - img [ref=e524]
+            - generic [ref=e526] [cursor=pointer]:
+              - generic [ref=e527]: 2 more flights at same price
+              - img [ref=e528]
+          - generic [ref=e532]:
+            - generic [ref=e533]:
+              - generic [ref=e540]: Etihad Airways | EY-233
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - generic [ref=e543]: BLR
+                  - generic [ref=e544]: 04:20
+                - generic [ref=e545]:
+                  - generic [ref=e546]: 4h 15m
+                  - generic [ref=e549]: Non stop
+                - generic [ref=e550]:
+                  - generic [ref=e551]: AUH
+                  - generic [ref=e552]: 07:05
+              - generic [ref=e554]: ₹18,504
+              - generic [ref=e555] [cursor=pointer]: Book
+            - generic [ref=e557] [cursor=pointer]:
+              - generic [ref=e558]: Flight Details
+              - img [ref=e559]
+          - generic [ref=e563]:
+            - generic [ref=e564]:
+              - generic [ref=e571]: Etihad Airways | EY-1013
+              - generic [ref=e572]:
+                - generic [ref=e573]:
+                  - generic [ref=e574]: BLR
+                  - generic [ref=e575]: 09:35
+                - generic [ref=e576]:
+                  - generic [ref=e577]: 4h 30m
+                  - generic [ref=e580]: Non stop
+                - generic [ref=e581]:
+                  - generic [ref=e582]: AUH
+                  - generic [ref=e583]: 12:35
+              - generic [ref=e585]: ₹18,982
+              - generic [ref=e586] [cursor=pointer]: Book
+            - generic [ref=e588] [cursor=pointer]:
+              - generic [ref=e589]: Flight Details
+              - img [ref=e590]
+          - generic [ref=e594]:
+            - generic [ref=e595]:
+              - generic [ref=e602]: Etihad Airways | EY-239
+              - generic [ref=e603]:
+                - generic [ref=e604]:
+                  - generic [ref=e605]: BLR
+                  - generic [ref=e606]: 21:50
+                - generic [ref=e607]:
+                  - generic [ref=e608]: 4h 15m
+                  - generic [ref=e611]: Non stop
+                - generic [ref=e612]:
+                  - generic [ref=e613]: AUH
+                  - generic [ref=e614]: 00:35
+                  - generic [ref=e615]: +1D
+              - generic [ref=e617]: ₹19,455
+              - generic [ref=e618] [cursor=pointer]: Book
+            - generic [ref=e620] [cursor=pointer]:
+              - generic [ref=e621]: Flight Details
+              - img [ref=e622]
+  - contentinfo [ref=e624]:
+    - generic [ref=e626]:
+      - generic [ref=e627]:
+        - generic [ref=e628]:
+          - generic [ref=e629]: ABOUT
+          - link "Contact Us" [ref=e630] [cursor=pointer]:
+            - /url: /helpcentre?otracker=footer_navlinks
+          - link "About Us" [ref=e631] [cursor=pointer]:
+            - /url: https://corporate.flipkart.net/corporate-home
+          - link "Careers" [ref=e632] [cursor=pointer]:
+            - /url: https://www.flipkartcareers.com/?otracker=footer_navlinks
+          - link "Flipkart Stories" [ref=e633] [cursor=pointer]:
+            - /url: http://stories.flipkart.com/?otracker=footer_navlinks
+          - link "Press" [ref=e634] [cursor=pointer]:
+            - /url: http://stories.flipkart.com/category/top-stories/news/
+          - link "Corporate Information" [ref=e635] [cursor=pointer]:
+            - /url: /corporate-information
+        - generic [ref=e636]:
+          - generic [ref=e637]: GROUP COMPANIES
+          - link "Myntra" [ref=e638] [cursor=pointer]:
+            - /url: https://www.myntra.com/
+          - link "Cleartrip" [ref=e639] [cursor=pointer]:
+            - /url: https://www.cleartrip.com/
+          - link "Shopsy" [ref=e640] [cursor=pointer]:
+            - /url: https://www.shopsy.in/
+        - generic [ref=e641]:
+          - generic [ref=e642]: HELP
+          - link "Payments" [ref=e643] [cursor=pointer]:
+            - /url: /pages/payments
+          - link "Shipping" [ref=e644] [cursor=pointer]:
+            - /url: /pages/shipping
+          - link "Cancellation & Returns" [ref=e645] [cursor=pointer]:
+            - /url: /helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG
+          - link "FAQ" [ref=e646] [cursor=pointer]:
+            - /url: /helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG
+        - generic [ref=e647]:
+          - generic [ref=e648]: CONSUMER POLICY
+          - link "Cancellation & Returns" [ref=e649] [cursor=pointer]:
+            - /url: /pages/returnpolicy?otracker=footer_navlinks
+          - link "Terms Of Use" [ref=e650] [cursor=pointer]:
+            - /url: /pages/terms?otracker=footer_navlinks
+          - link "Security" [ref=e651] [cursor=pointer]:
+            - /url: /pages/paymentsecurity?otracker=footer_navlinks
+          - link "Privacy" [ref=e652] [cursor=pointer]:
+            - /url: /pages/privacypolicy?otracker=footer_navlinks
+          - link "Sitemap" [ref=e653] [cursor=pointer]:
+            - /url: /sitemap?otracker=footer_navlinks
+          - link "Grievance Redressal" [ref=e654] [cursor=pointer]:
+            - /url: /pages/grievance-redressal-mechanism?otracker=footer_navlinks
+          - link "EPR Compliance" [ref=e655] [cursor=pointer]:
+            - /url: /pages/ewaste-compliance-tnc?otracker=footer_navlinks
+          - link "FSSAI Food Safety Connect App" [ref=e656] [cursor=pointer]:
+            - /url: https://fssai.gov.in/cms/food-safety-connect.php
+        - generic [ref=e658]:
+          - generic [ref=e659]: "Mail Us:"
+          - generic [ref=e662]:
+            - paragraph [ref=e663]: Flipkart Internet Private Limited,
+            - paragraph [ref=e664]: Buildings Alyssa, Begonia &
+            - paragraph [ref=e665]: Clove Embassy Tech Village,
+            - paragraph [ref=e666]: Outer Ring Road, Devarabeesanahalli Village,
+            - paragraph [ref=e667]: Bengaluru, 560103,
+            - paragraph [ref=e668]: Karnataka, India
+          - generic [ref=e669]: Social
+          - generic [ref=e670]:
+            - link [ref=e672] [cursor=pointer]:
+              - /url: https://www.facebook.com/flipkart
+              - img [ref=e673]
+            - link [ref=e675] [cursor=pointer]:
+              - /url: https://www.twitter.com/flipkart
+              - img [ref=e676]
+            - link [ref=e678] [cursor=pointer]:
+              - /url: https://www.youtube.com/flipkart
+              - img [ref=e679]
+            - link [ref=e681] [cursor=pointer]:
+              - /url: https://www.instagram.com/flipkart
+              - img [ref=e682]
+        - generic [ref=e684]:
+          - generic [ref=e685]: "Registered Office Address:"
+          - generic [ref=e688]:
+            - paragraph [ref=e689]: Flipkart Internet Private Limited,
+            - paragraph [ref=e690]: Buildings Alyssa, Begonia &
+            - paragraph [ref=e691]: Clove Embassy Tech Village,
+            - paragraph [ref=e692]: Outer Ring Road, Devarabeesanahalli Village,
+            - paragraph [ref=e693]: Bengaluru, 560103,
+            - paragraph [ref=e694]: Karnataka, India
+            - paragraph [ref=e695]: "CIN : U51109KA2012PTC066107"
+            - paragraph [ref=e696]:
+              - text: "Telephone:"
+              - link "044-45614700" [ref=e697] [cursor=pointer]:
+                - /url: tel:044-45614700
+              - text: /
+              - link "044-67415800" [ref=e698] [cursor=pointer]:
+                - /url: tel:044-67415800
+      - generic [ref=e700]:
+        - generic [ref=e701]:
+          - img [ref=e702]
+          - link "Become a Seller" [ref=e703] [cursor=pointer]:
+            - /url: https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect
+        - generic [ref=e704]:
+          - img [ref=e705]
+          - link "Advertise" [ref=e706] [cursor=pointer]:
+            - /url: https://brands.flipkart.com
+        - generic [ref=e707]:
+          - img [ref=e708]
+          - link "Gift Cards" [ref=e709] [cursor=pointer]:
+            - /url: /the-gift-card-store?otracker=footer_navlinks
+        - generic [ref=e710]:
+          - img [ref=e711]
+          - link "Help Center" [ref=e712] [cursor=pointer]:
+            - /url: /helpcentre?otracker=footer_navlinks
+        - generic [ref=e713]: © 2007-2025 Flipkart.com
+        - img [ref=e714]
+```
