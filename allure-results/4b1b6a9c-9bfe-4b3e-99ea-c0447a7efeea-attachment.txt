@@ -1,0 +1,39 @@
+{
+  statusCode: 201,
+  message: 'Created',
+  data: {
+    userId: 336400,
+    email: 'user1767782789972@gmail.com',
+    role: 'SHOPPER',
+    status: 'ACTIVE',
+    createdDateTime: null,
+    firstName: 'test',
+    lastName: 'user',
+    city: 'Banglore',
+    state: 'Karnataka',
+    country: 'India',
+    zoneId: 'ALPHA',
+    imageId: null,
+    jwtToken: null
+  }
+}
+undefined
+{
+  statusCode: 200,
+  message: 'OK',
+  data: {
+    userId: 323992,
+    email: 'user400@gmail.com',
+    role: 'SHOPPER',
+    status: 'ACTIVE',
+    createdDateTime: null,
+    firstName: 'test',
+    lastName: 'user',
+    city: 'Banglore',
+    state: 'Karnataka',
+    country: 'India',
+    zoneId: 'ALPHA',
+    imageId: null,
+    jwtToken: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNDAwQGdtYWlsLmNvbSBTSE9QUEVSIiwiZXhwIjoxNzY3ODE4NzkxLCJpYXQiOjE3Njc3ODI3OTF9.HfnRi2lrC4zoqNvDY0kxpCly1A77qbbRsSVu1Ykf-Uk'
+  }
+}

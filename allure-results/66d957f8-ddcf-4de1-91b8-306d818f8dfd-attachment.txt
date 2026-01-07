@@ -1,0 +1,5 @@
+{
+  statusCode: 401,
+  message: 'UNAUTHORIZED',
+  data: 'Given user ID or password is wrong'
+}

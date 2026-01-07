@@ -1,0 +1,19 @@
+{
+  statusCode: 201,
+  message: 'Created',
+  data: {
+    userId: 336408,
+    email: 'user1767783346149@gmail.com',
+    role: 'SHOPPER',
+    status: 'ACTIVE',
+    createdDateTime: null,
+    firstName: 'test',
+    lastName: 'user',
+    city: 'Banglore',
+    state: 'Karnataka',
+    country: 'India',
+    zoneId: 'ALPHA',
+    imageId: null,
+    jwtToken: null
+  }
+}

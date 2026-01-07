@@ -25,9 +25,10 @@ pipeline {
             steps {
                 sh '''
                     npx playwright test ./tests/sauce_labs.spec.ts
-                    TEST_ENV=qa npx playwright test ./tests/sauce_labs.spec.ts
                     npx playwright test ./tests/login_negativeTesting.spec.ts
                     npx playwright test ./tests/flipkart_flights.spec.ts
+                    TEST_ENV=api npx playwright test ./tests/apitesting_restful.spec.ts
+                    npx playwright test tests/apitesting_shopperstack.spec.ts --workers=1
                 '''
             }
         }

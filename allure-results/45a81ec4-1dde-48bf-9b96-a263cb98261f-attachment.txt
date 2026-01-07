@@ -1,0 +1,5 @@
+{
+  statusCode: 409,
+  message: 'CONFLICT',
+  data: 'Given Email ID or Phone number already used'
+}
