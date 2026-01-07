@@ -3,7 +3,12 @@ import * as dotenv from 'dotenv';
 import * as path from 'path';
 
 // Load environment variables from .env file
-dotenv.config({ path: path.resolve(__dirname, '.env') });
+//dotenv.config({ path: path.resolve(__dirname, '.env') });
+
+const env = process.env.TEST_ENV || 'qa';
+dotenv.config({ path: `.env.${env}` });
+
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
