@@ -3,7 +3,8 @@ import {validateSchemaZod} from 'playwright-schema-validator'
 import {z} from 'zod';
 
 test('GET',async({request})=>{
-    const response=await request.get(`${process.env.BASE_URL}`);
+    console.log(`Base URL is: ${process.env.BASE_URL_API}`);
+    const response=await request.get(`${process.env.BASE_URL_API}`);
     console.log(await response.json());
     await expect(response.status()).toBe(200);
     await expect(response.statusText()).toBe('OK');
@@ -15,7 +16,7 @@ test('GET',async({request})=>{
 test('POST',async({request,page})=>{
 
 //Crerate a new object via POST request
-const response=await request.post(`${process.env.BASE_URL}`,{
+const response=await request.post(`${process.env.BASE_URL_API}`,{
         data:{
             "name": "my Apple MacBook Pro 16",
             "data": {
@@ -34,7 +35,7 @@ const response=await request.post(`${process.env.BASE_URL}`,{
     let userID = postJson.id;
 
   // Now perform GET request to retrieve the created object
-   let getResponse=await request.get(`${process.env.BASE_URL}/${userID}`)
+   let getResponse=await request.get(`${process.env.BASE_URL_API}/${userID}`)
    console.log(await getResponse.json());
    const jsonResponse=await getResponse.json()
     await expect(getResponse.status()).toBe(200);
@@ -54,7 +55,7 @@ const response=await request.post(`${process.env.BASE_URL}`,{
 await validateSchemaZod({page},jsonResponse,schema)
 
 //Update the object via PUT request
-let putResponse=await request.put(`${process.env.BASE_URL}/${userID}`,{
+let putResponse=await request.put(`${process.env.BASE_URL_API}/${userID}`,{
     data:{
         "name": "Apple MacBook Pro 16",
    "data": {
@@ -72,7 +73,7 @@ await expect(putResponse.statusText()).toBe('OK');
 
 //Patch request to update partial data
 
-    const patchResponse=await request.patch(`${process.env.BASE_URL}/${userID}`,
+    const patchResponse=await request.patch(`${process.env.BASE_URL_API}/${userID}`,
         {
             data:{
             "name": "Apple MacBook Pro 16 (Updated Name)"
