@@ -1,0 +1,1 @@
+Invoice downloaded: /Users/testvagranttechnologies/Desktop/Projects/Playwright_Capstone_Project/invoices/invoice_2026-01-11_13-39-11-368.txt

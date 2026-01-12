@@ -28,6 +28,7 @@ pipeline {
                     npx playwright test ./tests/login_negativeTesting.spec.ts
                     npx playwright test ./tests/flipkart_flights.spec.ts
                     TEST_ENV=api npx playwright test ./tests/apitesting_restful.spec.ts
+                    npx playwright test tests/automation_exercise.spec.ts
                 '''
             }
         }

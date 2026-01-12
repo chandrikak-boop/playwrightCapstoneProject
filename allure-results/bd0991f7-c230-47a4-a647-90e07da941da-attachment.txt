@@ -1,0 +1,12 @@
+[
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').first(),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(1),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(2),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(3),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(4),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(5),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(6),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(7),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(8),
+  locator('//div[@class="s-suggestion s-suggestion-ellipsis-direction"]').nth(9)
+]
